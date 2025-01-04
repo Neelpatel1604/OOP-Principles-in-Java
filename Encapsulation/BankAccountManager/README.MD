@@ -28,3 +28,7 @@ This project includes a Bank Account Management system that demonstrates the enc
 
 ### Example Output
 When you run the program, it will display the account holder's name and the current balance after performing the transactions.
+``` 
+Account Holder: Saad
+Balance: $1300.0
+```
