@@ -1,40 +1,55 @@
 # Shape Hierarchy
 
-## Overview
-The Shape Hierarchy is a demonstration of inheritance and polymorphism in Java, showcasing how different shapes can be represented as subclasses of a base class. This system includes an abstract base class `Shape` and two subclasses: `Circle` and `Rectangle`.
+## Project Overview
+This Shape Hierarchy project demonstrates the inheritance and polymorphism principles of Object-Oriented Programming (OOP) through a system of shapes. It showcases how different shapes can inherit from a base `Shape` class while implementing their own specific calculations for area and perimeter.
 
-## Classes
+### Class Descriptions
 
-### 1. Shape
-- **Description**: The abstract base class for all shapes. It defines the common interface for calculating area and perimeter.
-- **Methods**:
-  - `public abstract double area()`: An abstract method to calculate the area of the shape.
-  - `public abstract double perimeter()`: An abstract method to calculate the perimeter of the shape.
+1. **Shape.java**
+   - This is the abstract base class that defines the common interface for all shapes.
+   - **Methods**:
+     - `public abstract double area()`: Calculates the area of the shape.
+     - `public abstract double perimeter()`: Calculates the perimeter of the shape.
 
-### 2. Circle
-- **Description**: A subclass of `Shape` representing circles.
-- **Attributes**:
-  - `private double radius`: The radius of the circle.
-- **Constructor**: 
-  - `Circle(double radius)`: Initializes the circle with a specified radius.
-- **Methods**:
-  - `public double area()`: Calculates and returns the area of the circle.
-  - `public double perimeter()`: Calculates and returns the perimeter (circumference) of the circle.
+2. **Circle.java**
+   - This class extends `Shape` to represent circles in the system.
+   - **Attributes**:
+     - `private double radius`: Stores the circle's radius.
+   - **Constructor**:
+     - `Circle(double radius)`: Initializes a circle with the specified radius.
+   - **Methods**:
+     - `public double area()`: Returns the circle's area using πr².
+     - `public double perimeter()`: Returns the circle's circumference using 2πr.
 
-### 3. Rectangle
-- **Description**: A subclass of `Shape` representing rectangles.
-- **Attributes**:
-  - `private double width`: The width of the rectangle.
-  - `private double height`: The height of the rectangle.
-- **Constructor**: 
-  - `Rectangle(double width, double height)`: Initializes the rectangle with specified width and height.
-- **Methods**:
-  - `public double area()`: Calculates and returns the area of the rectangle.
-  - `public double perimeter()`: Calculates and returns the perimeter of the rectangle.
+3. **Rectangle.java**
+   - This class extends `Shape` to represent rectangles in the system.
+   - **Attributes**:
+     - `private double width`: Stores the rectangle's width.
+     - `private double height`: Stores the rectangle's height.
+   - **Constructor**:
+     - `Rectangle(double width, double height)`: Initializes a rectangle with the given dimensions.
+   - **Methods**:
+     - `public double area()`: Returns the rectangle's area using width × height.
+     - `public double perimeter()`: Returns the rectangle's perimeter using 2(width + height).
 
-## Usage
-The `Start` class contains the `main` method, which creates instances of each shape type and demonstrates their functionality by calling `area()` and `perimeter()` methods.
+4. **Start.java**
+   - This is the main class that runs the application and demonstrates the shape hierarchy.
+   - **Functionality**:
+     - Creates instances of different shapes (`Circle` and `Rectangle`).
+     - Demonstrates polymorphism by calling `area()` and `perimeter()`.
+     - Shows how each shape calculates its measurements differently.
 
+### How to Run
+1. Compile all Java files in the `Inheritance/ShapeHierarchy` directory.
+2. Run the `Start` class to execute the program.
 
-## Conclusion
-The Shape Hierarchy effectively demonstrates the principles of inheritance and polymorphism in Java, allowing for a clear and organized representation of different shapes.
+### Example Output
+When you run the program, it will display the calculations for each shape.
+
+```
+Circle Area: 78.54
+Circle Perimeter: 31.42
+Rectangle Area: 24.00
+Rectangle Perimeter: 20.00
+
+```

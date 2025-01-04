@@ -5,10 +5,11 @@ public class Start {
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 6);
 
-        System.out.println("Circle Area: " + circle.area());
-        System.out.println("Circle Perimeter: " + circle.perimeter());
-
-        System.out.println("Rectangle Area: " + rectangle.area());
-        System.out.println("Rectangle Perimeter: " + rectangle.perimeter());
+        System.out.println("Circle Area: " + String.format("%.2f", circle.area()));
+        System.out.println("Circle Perimeter: " + String.format("%.2f", circle.perimeter()));
+        
+        System.out.println("Rectangle Area: " + String.format("%.2f", rectangle.area()));
+        System.out.println("Rectangle Perimeter: " + String.format("%.2f", rectangle.perimeter()));
+        
     }
 }
