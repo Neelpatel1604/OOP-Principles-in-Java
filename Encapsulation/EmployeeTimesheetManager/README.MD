@@ -48,3 +48,11 @@ This project also includes an Employee Timesheet Management system that demonstr
 
 ### Example Output
 When you run the program, it will display the total wages for the week and print the pay stubs for each employee.
+```
+Total wages for this week: 8304.2
+Saad     10451 38.54 3083.2
+Enoch    10452 35.45 2836.0
+praths   10453 20.25 405.0
+Fideberg 10454 30.0 1500.0
+Chamath  10455 24.0 480.0
+```
