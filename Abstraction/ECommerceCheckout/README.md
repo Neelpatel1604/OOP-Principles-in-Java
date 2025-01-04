@@ -60,7 +60,7 @@ This project demonstrates an E-Commerce Checkout System that utilizes abstractio
 
 ### Example Output
 When you run the program, it will display the following actions performed by the e-commerce checkout system:
-- Tax and discounted price calculations for standard checkout.
-- Invoice details for standard checkout.
-- Tax and discounted price calculations for prime checkout.
-- Invoice details for prime checkout. 
+Tax and discounted price calculations for standard checkout.
+Invoice details for standard checkout.
+Tax and discounted price calculations for prime checkout.
+Invoice details for prime checkout. 
