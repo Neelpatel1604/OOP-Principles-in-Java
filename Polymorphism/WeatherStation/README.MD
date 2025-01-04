@@ -52,7 +52,7 @@ You have been tasked with developing a Weather Station simulation that gathers w
 When you run the program, it will display a report of the wind readings collected during the simulation, formatted as follows:
 ```
 ------Wind Report---------
-    Direction            Speed
+    Direction                 Speed
     57			            27
     92			            43
     173			            7
