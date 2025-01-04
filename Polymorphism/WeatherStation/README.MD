@@ -50,6 +50,7 @@ You have been tasked with developing a Weather Station simulation that gathers w
 
 ### Example Output
 When you run the program, it will display a report of the wind readings collected during the simulation, formatted as follows:
+```
 ------Wind Report---------
     Direction       Speed
     57			            27
@@ -62,6 +63,6 @@ When you run the program, it will display a report of the wind readings collecte
     231			            46
     145			            3
     97			            28
-
+```
 ## Conclusion
 By following these instructions, you will create a functional Weather Station simulation that adheres to the principles of Object-Oriented Programming, specifically encapsulation and dependency inversion.
