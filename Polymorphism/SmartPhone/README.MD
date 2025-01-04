@@ -52,6 +52,7 @@ This project demonstrates a Smart Phone system that utilizes polymorphism throug
 
 ### Example Output
 When you run the program, it will display the following actions performed by the `SmartPhone`:
+```
 Taking photo
 Making call
 Playing a song
